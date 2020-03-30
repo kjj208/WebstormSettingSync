@@ -1,0 +1,40 @@
+<templateSet group="A~custom">
+  <template name="~tomcat7plugin" value="  &lt;build&gt;&#10;    &lt;plugins&gt;&#10;      &lt;plugin&gt;&#10;        &lt;groupId&gt;org.apache.tomcat.maven&lt;/groupId&gt;&#10;        &lt;artifactId&gt;tomcat7-maven-plugin&lt;/artifactId&gt;&#10;        &lt;version&gt;2.2&lt;/version&gt;&#10;        &lt;configuration&gt;&#10;          &lt;port&gt;8088&lt;/port&gt;&#10;          &lt;path&gt;/&lt;/path&gt;&#10;        &lt;/configuration&gt;&#10;      &lt;/plugin&gt;&#10;    &lt;/plugins&gt;&#10;  &lt;/build&gt;" description="tomcat7plugin 7 2.2  tomcat7插件" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="~jdk1.8plugin" value="&lt;plugin&gt;&#10;        &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;        &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;        &lt;configuration&gt;&#10;          &lt;target&gt;1.8&lt;/target&gt;&#10;          &lt;source&gt;1.8&lt;/source&gt;&#10;          &lt;encoding&gt;UTF-8&lt;/encoding&gt;&#10;        &lt;/configuration&gt;&#10;      &lt;/plugin&gt;" description="pom.xml 1.8插件" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="~log4jproperties" value="# Set root category priority to INFO and its only appender to CONSOLE.&#10;#log4j.rootCategory=INFO, CONSOLE            debug   info   warn error fatal&#10;log4j.rootCategory=info, CONSOLE, LOGFILE&#10;&#10;# Set the enterprise logger category to FATAL and its only appender to CONSOLE.&#10;log4j.logger.org.apache.axis.enterprise=FATAL, CONSOLE&#10;&#10;# CONSOLE is set to be a ConsoleAppender using a PatternLayout.&#10;log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender&#10;log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout&#10;log4j.appender.CONSOLE.layout.ConversionPattern=%d{ISO8601} %-6r [%15.15t] %-5p %30.30c %x - %m\n&#10;&#10;# LOGFILE is set to be a File appender using a PatternLayout.&#10;log4j.appender.LOGFILE=org.apache.log4j.FileAppender&#10;log4j.appender.LOGFILE.File=c$END$:\axis.log&#10;log4j.appender.LOGFILE.Append=true&#10;log4j.appender.LOGFILE.layout=org.apache.log4j.PatternLayout&#10;log4j.appender.LOGFILE.layout.ConversionPattern=%d{ISO8601} %-6r [%15.15t] %-5p %30.30c %x - %m\n" description="~log4jproperties" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="MXML" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>

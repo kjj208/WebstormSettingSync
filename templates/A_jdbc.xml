@@ -1,0 +1,65 @@
+<templateSet group="A~jdbc">
+  <template name="~mysql8localurl" value="jdbc:mysql://127.0.0.1:3306/$VAR1$?characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&amp;serverTimezone=GMT%2B8" description="mysql8locahost url地址" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="~jdbcConfigproperties" value="jdbc.driver=com.mysql.cj.jdbc.Driver&#10;jdbc.url=jdbc:mysql://127.0.0.1:3306/$END$?characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&amp;serverTimezone=GMT%2B8&#10;jdbc.username=root&#10;jdbc.password=kjj208" description="jdbcproperties for localhost mysql 8.0.15 配置文件" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="MXML" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="~jdbcConfigpropertiesamp" value="jdbc.driver=com.mysql.cj.jdbc.Driver&#10;jdbc.url=jdbc:mysql://127.0.0.1:3306/$END$?characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&amp;serverTimezone=GMT%2B8&#10;jdbc.username=root&#10;jdbc.password=kjj208" description="jdbcproperties for localhost mysql 8.0.15 带amp;配置文件" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="MXML" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>
