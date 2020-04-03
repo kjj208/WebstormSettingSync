@@ -1,6 +1,11 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="invoke" />
+      <item value="set Accessible" />
+      <item value="get Declared Field" />
+      <item value="Declared Methods" />
+      <item value="Declared" />
       <item value="You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near" />
       <item value="Attempted to convert SQLException to SQLException. Leaving it alone." />
       <item value="The 'limit' property of null is not a List or Array." />
@@ -35,8 +40,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="28" />
-        <entry key="ENGLISH" value="29" />
+        <entry key="CHINESE" value="34" />
+        <entry key="ENGLISH" value="35" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
