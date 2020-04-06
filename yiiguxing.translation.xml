@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Invalid Maven home directory configured /Users/junjiechen/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3 Bundled maven 3.6.1 will be used. Configure Maven home." />
       <item value="Array Index Out Of Bounds Exception" />
       <item value="invoke" />
       <item value="set Accessible" />
@@ -41,8 +42,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="35" />
-        <entry key="ENGLISH" value="36" />
+        <entry key="CHINESE" value="36" />
+        <entry key="ENGLISH" value="37" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
