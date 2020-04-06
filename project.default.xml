@@ -4,9 +4,9 @@
       <component name="MavenImportPreferences">
         <option name="generalSettings">
           <MavenGeneralSettings>
-            <option name="localRepository" value="C:\Users\kjj208\Documents\maven_repository" />
-            <option name="mavenHome" value="$USER_HOME$/Documents/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
-            <option name="userSettingsFile" value="C:\Users\kjj208\Documents\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+            <option name="localRepository" value="/Users/junjiechen/Maven_Repository" />
+            <option name="mavenHome" value="/Users/junjiechen/MyDevelopTools/apache-maven-3.6.3" />
+            <option name="userSettingsFile" value="/Users/junjiechen/MyDevelopTools/apache-maven-3.6.3/conf/settings.xml" />
           </MavenGeneralSettings>
         </option>
         <option name="importingSettings">
