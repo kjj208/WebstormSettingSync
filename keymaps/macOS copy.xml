@@ -6,9 +6,19 @@
     <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+    <keyboard-shortcut first-keystroke="meta right" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="meta alt enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="meta n" />
@@ -16,6 +26,17 @@
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="meta p" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="shift meta f" />
+  </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta j" />
@@ -23,5 +44,9 @@
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
     <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
+  <action id="TodoViewGroupByFlattenPackage" />
+  <action id="TypeHierarchy">
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
 </keymap>
