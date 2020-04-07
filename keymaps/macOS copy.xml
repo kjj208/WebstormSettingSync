@@ -26,6 +26,10 @@
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="MethodHierarchy">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
+  <action id="MinimizeCurrentWindow" />
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="meta p" />
     <keyboard-shortcut first-keystroke="ctrl e" />
@@ -48,6 +52,7 @@
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TypeHierarchy">
-    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="Vcs.UpdateProject" />
 </keymap>
