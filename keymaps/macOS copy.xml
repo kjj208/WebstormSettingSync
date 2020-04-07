@@ -37,13 +37,14 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
+  <action id="ReplaceInPath" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
-    <keyboard-shortcut first-keystroke="shift alt s" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="TodoViewGroupByFlattenPackage" />
   <action id="TypeHierarchy">
