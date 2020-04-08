@@ -17,9 +17,15 @@
   <action id="Debug" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorCompleteStatement" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
