@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Context" />
+      <item value="Spring Configuration Check Unmapped Spring configuration files found. Please configure Spring facet or use 'Create Default Context' to add one including all unmapped files. springmvc_day02_03_exception (1 file) Create Default Context Show Help Disable..." />
       <item value="Invalid Maven home directory configured /Users/junjiechen/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3 Bundled maven 3.6.1 will be used. Configure Maven home." />
       <item value="Array Index Out Of Bounds Exception" />
       <item value="invoke" />
@@ -42,8 +44,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="37" />
-        <entry key="ENGLISH" value="38" />
+        <entry key="CHINESE" value="41" />
+        <entry key="ENGLISH" value="42" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
