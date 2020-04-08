@@ -35,8 +35,6 @@
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="Generate">
-    <keyboard-shortcut first-keystroke="meta n" />
-    <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="GotoImplementation">
