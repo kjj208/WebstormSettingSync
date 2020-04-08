@@ -1,6 +1,12 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
+  <action id="Console.Execute.Multiline" />
   <action id="Console.Jpa.GenerateSql" />
   <action id="Debug" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta back_space" />
@@ -13,6 +19,7 @@
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="meta alt enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
@@ -39,6 +46,7 @@
     <keyboard-shortcut first-keystroke="meta alt f" />
     <keyboard-shortcut first-keystroke="shift v" />
   </action>
+  <action id="KotlinShellExecute" />
   <action id="MethodHierarchy">
     <keyboard-shortcut first-keystroke="meta m" />
   </action>
@@ -61,7 +69,7 @@
   <action id="ReplaceInPath" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
-    <keyboard-shortcut first-keystroke="meta j" />
+    <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="meta alt t" />
@@ -72,4 +80,5 @@
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="ViewSource" />
 </keymap>
