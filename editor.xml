@@ -6,8 +6,7 @@
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="13" />
-    <option name="FONT_FAMILY" value="Andale Mono" />
+    <option name="FONT_FAMILY" value="Inconsolata" />
   </component>
   <component name="EditorSettings">
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
