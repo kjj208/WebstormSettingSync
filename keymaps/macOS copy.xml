@@ -12,17 +12,21 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="meta j" />
   </action>
+  <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
   <action id="Console.Jpa.GenerateSql" />
   <action id="Debug" />
+  <action id="Diff.ShowDiff" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorCompleteStatement" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta back_space" />
-    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
@@ -39,6 +43,7 @@
     <keyboard-shortcut first-keystroke="meta alt enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="alt a" />
@@ -82,6 +87,7 @@
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="ReplaceInPath" />
+  <action id="SendEOF" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
@@ -99,4 +105,5 @@
   </action>
   <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
