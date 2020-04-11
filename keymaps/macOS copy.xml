@@ -25,9 +25,7 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
-  <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="ctrl meta down" />
-  </action>
+  <action id="EditorDuplicate" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
