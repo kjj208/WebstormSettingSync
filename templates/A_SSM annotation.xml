@@ -17,4 +17,14 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="~SpringConfiguration_dao" value="@Configuration&#10;@ComponentScan(basePackages = {&quot;cn.cj.service&quot;,&quot;cn.cj.dao&quot;},useDefaultFilters = true,&#10;        excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, classes = Controller.class)})&#10;@Import({JdbcConfig.class})&#10;public class SpringConfiguration_dao {&#10;&#10;}&#10;" description="SpringConfiguration_dao 注解类" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+    </context>
+  </template>
 </templateSet>
