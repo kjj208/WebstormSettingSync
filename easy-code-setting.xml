@@ -217,6 +217,10 @@
                     <option name="columnType" value="double" />
                     <option name="javaType" value="java.lang.Double" />
                   </TypeMapper>
+                  <TypeMapper>
+                    <option name="columnType" value="date" />
+                    <option name="javaType" value="java.lang.Object" />
+                  </TypeMapper>
                 </list>
               </option>
               <option name="name" value="Default" />
