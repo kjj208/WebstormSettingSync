@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="java.lang.IllegalStateException: Optional int parameter 'pageSize' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type. at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.handleNullValue(AbstractNamedValueMethodArgumentResolver.java:244) at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114) at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124) at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:161) at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:131) at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:871) at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:777) at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991) at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978) at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:881)" />
       <item value="DEBUG STACK TRACE for PoolBackedDataSource.close()." />
       <item value="SUCCESS" />
       <item value="ervlet.service() for servlet [SpringServlet] in context with path [/ssm_start_anno] threw exception [Circular view path [accountDetail]: would dispatch back to the current handler URL [/ssm_start_anno/account/accountDetail] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause javax.servlet.ServletException: Circular view path [accountDetail]: would dispatch back to the current handler URL [/ssm_start_anno/account/accountDetail] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.) at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:209) at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:147) at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325) at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069) at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008) at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925) at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978) at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:870)" />
@@ -50,12 +51,11 @@
       <item value="util" />
       <item value="JDBC Util" />
       <item value="A thread-safe, mutable sequence of characters. * A string buffer is like a {@link String}, but can be modified. At any * point in time it contains some particular sequence of characters, but * the length and content of the sequence can be changed through certain * method calls." />
-      <item value="try" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="57" />
-        <entry key="ENGLISH" value="59" />
+        <entry key="CHINESE" value="58" />
+        <entry key="ENGLISH" value="60" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
