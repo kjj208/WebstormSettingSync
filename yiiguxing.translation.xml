@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="[WARNING] Some problems were encountered while building the effective model for cn.cj:SSM_D_200415:war:1.0-SNAPSHOT [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: junit:junit:jar -&gt; duplicate declaration of version 4.12 @ line 221, column 19 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 236, column 15 [WARNING] [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build. [WARNING] [WARNING] For this reason, future Maven versions might no longer support building such malformed projects." />
       <item value="Some problems were encountered while building the effective settings" />
       <item value="Required String parameter 'sort' is not present" />
       <item value="java.lang.IllegalStateException: Optional int parameter 'pageSize' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type." />
@@ -50,12 +51,11 @@
       <item value="true" />
       <item value="System" />
       <item value="user Dao" />
-      <item value="Insert" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="61" />
-        <entry key="ENGLISH" value="63" />
+        <entry key="CHINESE" value="62" />
+        <entry key="ENGLISH" value="64" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
