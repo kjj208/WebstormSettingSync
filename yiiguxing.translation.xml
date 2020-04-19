@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="datagrid" />
       <item value="user Controller" />
       <item value="Web Application Context" />
       <item value="Array Store Exception" />
@@ -50,12 +51,11 @@
       <item value="annotation" />
       <item value="Resolver" />
       <item value="Sys Exception Resolver" />
-      <item value="Internal Resource View Resolver" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="69" />
-        <entry key="ENGLISH" value="71" />
+        <entry key="CHINESE" value="71" />
+        <entry key="ENGLISH" value="73" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />

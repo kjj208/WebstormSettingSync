@@ -5,6 +5,13 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="AppServers.DeployAll">
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
   <action id="CallHierarchy">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
@@ -44,6 +51,7 @@
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
   <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.GotoModule" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="alt a" />
