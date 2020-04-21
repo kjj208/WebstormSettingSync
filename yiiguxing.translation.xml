@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="bio" />
       <item value="ERROR pring.mapper.MapperFactoryBean - Error while adding the mapper 'interface cn.cj.dao.UserDao' to configuration." />
       <item value="datagrid" />
       <item value="user Controller" />
@@ -50,7 +51,6 @@
       <item value="insert" />
       <item value="load" />
       <item value="annotation" />
-      <item value="Resolver" />
     </histories>
     <option name="languageScores">
       <map>
