@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Caused by: org.apache.ibatis.binding.BindingException: Parameter 'username' not found. Available parameters are [bean, param1]" />
       <item value=": nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'dlastdate'" />
       <item value="bio" />
       <item value="ERROR pring.mapper.MapperFactoryBean - Error while adding the mapper 'interface cn.cj.dao.UserDao' to configuration." />
@@ -50,12 +51,11 @@
       <item value="process" />
       <item value="batch" />
       <item value="insert" />
-      <item value="load" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="73" />
-        <entry key="ENGLISH" value="75" />
+        <entry key="CHINESE" value="74" />
+        <entry key="ENGLISH" value="76" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
