@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Jsp Servlet" />
       <item value="480" />
       <item value="Caused by: org.apache.ibatis.binding.BindingException: Parameter 'username' not found. Available parameters are [bean, param1]" />
       <item value=": nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'dlastdate'" />
@@ -50,7 +51,6 @@
       <item value="nested" />
       <item value="candidates" />
       <item value="process" />
-      <item value="batch" />
     </histories>
     <option name="languageScores">
       <map>
