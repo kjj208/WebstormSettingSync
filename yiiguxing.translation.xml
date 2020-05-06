@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="webapp" />
       <item value="Spring Configuration Check Unmapped Spring configuration files found. Please configure Spring facet or use 'Create Default Context' to add one including all unmapped files. Spring_SpringMVC_anno_d2 (2 files) Create Default Context SSM_D_200415 (2 files) Create Default Context springmvc_day02_03_exception (1 file) Create Default Context ssm_start_anno (3 files) Create Default Context &lt;a href=&quot;config#S... Show Help Disable... (show balloon)" />
       <item value="Set the enterprise logger category to FATAL and its only appender to CONSOLE." />
       <item value="Set root category priority to INFO and its only appender to CONSOLE." />
@@ -50,12 +51,11 @@
       <item value="Attempted to convert SQLException to SQLException. Leaving it alone." />
       <item value="The 'limit' property of null is not a List or Array." />
       <item value="Array" />
-      <item value="Mapped Statements collection already contains value for cn.cj.dao.AccountDao.queryAll" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="80" />
-        <entry key="ENGLISH" value="81" />
+        <entry key="CHINESE" value="81" />
+        <entry key="ENGLISH" value="82" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
