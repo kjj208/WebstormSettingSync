@@ -1,0 +1,9 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="2020-05-07 12:34:47,491 2183409 [bio-8080-exec-8] DEBUG c3p0.stmt.GooGooStatementCache  - checkinAll(): com.mchange.v2.c3p0.stmt.GlobalMaxOnlyStatementCache stats -- total size: 13; checked out: 0; num connections: 5; num keys: 13" />
+      </list>
+    </option>
+  </component>
+</application>
