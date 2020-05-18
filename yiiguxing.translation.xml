@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Some problems were encountered while building the effective model for cn.cj:SSM_D_200517:war:1.0-SNAPSHOT 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 254, column 21 It is highly recommended to fix these problems because they threaten the stability of your build. For this reason, future Maven versions might no longer support building such malformed projects." />
       <item value="2020-05-18 10:00:53,548 1154 [ost-startStop-1] ERROR pring.mapper.MapperFactoryBean - Error while adding the mapper 'interface cn.cj.mapper.NoticeMapper' to configuration." />
       <item value="No mapping found for HTTP request with URI [/SSM_D_200517/userController/userList] in DispatcherServlet with name 'dispatcherServlet'" />
       <item value="Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!" />
@@ -50,12 +51,11 @@
       <item value="Spring Configuration Check Unmapped Spring configuration files found. Please configure Spring facet or use 'Create Default Context' to add one including all unmapped files. springmvc_day02_03_exception (1 file) Create Default Context Show Help Disable..." />
       <item value="Invalid Maven home directory configured /Users/junjiechen/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3 Bundled maven 3.6.1 will be used. Configure Maven home." />
       <item value="Array Index Out Of Bounds Exception" />
-      <item value="invoke" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="90" />
-        <entry key="ENGLISH" value="91" />
+        <entry key="CHINESE" value="91" />
+        <entry key="ENGLISH" value="92" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
