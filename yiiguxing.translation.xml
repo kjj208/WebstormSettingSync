@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="druid" />
       <item value="Lombok Requires Annotation Processing: Do you want to enable annotation processors" />
       <item value="locale" />
       <item value="Locale" />
@@ -50,12 +51,11 @@
       <item value="Access denied for user 'root'@'localhost' (using password: YES)" />
       <item value="Resource View Resolver" />
       <item value="Internal" />
-      <item value="Move to Another Changelist... and 10 more shortcut conflict with macOS shortcuts. Modify these shortcuts or change macOS system settings." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="105" />
+        <entry key="CHINESE" value="105" />
+        <entry key="ENGLISH" value="106" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
