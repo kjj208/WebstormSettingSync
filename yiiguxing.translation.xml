@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Configures the global io.swagger.model.SecurityScheme's applicable to all or some of the api * operations. The configuration of which operations have associated SecuritySchemes is configured with * springfox.swagger.plugins.Docket#securityContexts *" />
+      <item value="Sets the api's meta information as included in the json ResourceListing response." />
+      <item value="Add to the api's vendor extensions" />
       <item value="Documentation Type" />
       <item value="Meta" />
       <item value="A builder which is intended to be the primary interface into the Springfox framework. * Provides sensible defaults and convenience methods for configuration." />
@@ -48,14 +51,11 @@
       <item value="datagrid" />
       <item value="user Controller" />
       <item value="Web Application Context" />
-      <item value="Array Store Exception" />
-      <item value="ClassCastException: [Lorg.omg.CORBA.Object; cannot be cast to [Lcn.cj.arraylist.Person;" />
-      <item value="expected START_TAG or END_TAG not TEXT (position: TEXT seen ...&lt;/mirror&gt;\r\n --&gt;\r\n &lt;mirror&gt;\r\n\u3000\u3000\u3000\u3000&lt;i... @183:7) @ /Users/junjiechen/MyDevelopTools/apache-maven-3.6.3/conf/settings.xml, line 183, column 7" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="118" />
-        <entry key="ENGLISH" value="119" />
+        <entry key="CHINESE" value="121" />
+        <entry key="ENGLISH" value="122" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
