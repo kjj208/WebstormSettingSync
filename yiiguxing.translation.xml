@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="this will automatically fall back to building the docket when the build method is called" />
+      <item value="automatically" />
       <item value="api selection builder. To complete building the api selector, the build method of the api selector * needs to be called, this will automatically fall back to building the docket when the build method is called." />
       <item value="term Of Service Url" />
       <item value="meta" />
@@ -49,13 +51,11 @@
       <item value="480" />
       <item value="Caused by: org.apache.ibatis.binding.BindingException: Parameter 'username' not found. Available parameters are [bean, param1]" />
       <item value=": nested exception is org.apache.ibatis.reflection.ReflectionException: Could not set property 'dlastdate'" />
-      <item value="bio" />
-      <item value="ERROR pring.mapper.MapperFactoryBean - Error while adding the mapper 'interface cn.cj.dao.UserDao' to configuration." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="125" />
-        <entry key="ENGLISH" value="126" />
+        <entry key="CHINESE" value="127" />
+        <entry key="ENGLISH" value="128" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
