@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="meta" />
       <item value="Configures the global io.swagger.model.SecurityScheme's applicable to all or some of the api * operations. The configuration of which operations have associated SecuritySchemes is configured with * springfox.swagger.plugins.Docket#securityContexts *" />
       <item value="Sets the api's meta information as included in the json ResourceListing response." />
       <item value="Add to the api's vendor extensions" />
@@ -50,12 +51,11 @@
       <item value="ERROR pring.mapper.MapperFactoryBean - Error while adding the mapper 'interface cn.cj.dao.UserDao' to configuration." />
       <item value="datagrid" />
       <item value="user Controller" />
-      <item value="Web Application Context" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="121" />
-        <entry key="ENGLISH" value="122" />
+        <entry key="CHINESE" value="122" />
+        <entry key="ENGLISH" value="123" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="3" />
         <entry key="SPANISH" value="2" />
