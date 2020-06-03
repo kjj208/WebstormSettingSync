@@ -82,6 +82,9 @@
     <keyboard-shortcut first-keystroke="meta m" />
   </action>
   <action id="MinimizeCurrentWindow" />
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="ctrl meta n" />
+  </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="meta p" />
     <keyboard-shortcut first-keystroke="ctrl e" />
