@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Column" />
+      <item value="Generated" />
       <item value="merge" />
       <item value="Persistence" />
       <item value="provider" />
@@ -49,13 +51,11 @@
       <item value="webapp" />
       <item value="Spring Configuration Check Unmapped Spring configuration files found. Please configure Spring facet or use 'Create Default Context' to add one including all unmapped files. Spring_SpringMVC_anno_d2 (2 files) Create Default Context SSM_D_200415 (2 files) Create Default Context springmvc_day02_03_exception (1 file) Create Default Context ssm_start_anno (3 files) Create Default Context &lt;a href=&quot;config#S... Show Help Disable... (show balloon)" />
       <item value="Set the enterprise logger category to FATAL and its only appender to CONSOLE." />
-      <item value="Set root category priority to INFO and its only appender to CONSOLE." />
-      <item value="Failed to initialize end point associated with ProtocolHandler [&quot;http-bio-8080&quot;] java.net.BindException: Address already in use (Bind failed) &lt;null&gt;:8080" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="132" />
-        <entry key="ENGLISH" value="133" />
+        <entry key="CHINESE" value="134" />
+        <entry key="ENGLISH" value="135" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
