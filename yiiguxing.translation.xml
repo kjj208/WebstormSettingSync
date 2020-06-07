@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Specification Executor" />
+      <item value="Jpa Repository" />
       <item value="Dialect" />
       <item value="Column" />
       <item value="Generated" />
@@ -49,13 +51,11 @@
       <item value="Some problems were encountered while building the effective model for cn.cj:SSM_D_200517:war:1.0-SNAPSHOT [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.github.pagehelper:pagehelper:jar -&gt; version 5.1.2 vs 4.1.4 @ line 232, column 21 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 246, column 21 [WARNING] [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build. [WARNING] [WARNING] For this reason, future Maven versions might no longer support building such malformed projects." />
       <item value="2020-05-17 23:28:40,940 5688 [bio-8080-exec-4] WARN ework.web.servlet.PageNotFound - No mapping found for HTTP request with URI [/SSM_D_200517/userController/userList] in DispatcherServlet with name 'dispatcherServlet'" />
       <item value=":17 Plugin Error: Plugin &quot;MyBatis Log Plugin&quot; is incompatible (until build 193.SNAPSHOT &lt; IU-201.7223.91)." />
-      <item value="webapp" />
-      <item value="Spring Configuration Check Unmapped Spring configuration files found. Please configure Spring facet or use 'Create Default Context' to add one including all unmapped files. Spring_SpringMVC_anno_d2 (2 files) Create Default Context SSM_D_200415 (2 files) Create Default Context springmvc_day02_03_exception (1 file) Create Default Context ssm_start_anno (3 files) Create Default Context &lt;a href=&quot;config#S... Show Help Disable... (show balloon)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="135" />
-        <entry key="ENGLISH" value="136" />
+        <entry key="CHINESE" value="137" />
+        <entry key="ENGLISH" value="138" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
