@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="correct" />
+      <item value="Return the auto-configuration class names that should be considered. By default * this method will load candidates using {@link SpringFactoriesLoader} with * {@link #getSpringFactoriesLoaderFactoryClass()}. * @param metadata the source metadata * @param attributes the {@link #getAttributes(AnnotationMetadata) annotation * attributes} * @return a list of candidate configurations" />
       <item value="mapped" />
       <item value="fetch" />
       <item value="Specification Executor" />
@@ -49,13 +51,11 @@
       <item value="queue" />
       <item value="exec" />
       <item value="Some problems were encountered while building the effective model for cn.cj:SSM_D_200517:war:1.0-SNAPSHOT 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 254, column 21 It is highly recommended to fix these problems because they threaten the stability of your build. For this reason, future Maven versions might no longer support building such malformed projects." />
-      <item value="2020-05-18 10:00:53,548 1154 [ost-startStop-1] ERROR pring.mapper.MapperFactoryBean - Error while adding the mapper 'interface cn.cj.mapper.NoticeMapper' to configuration." />
-      <item value="No mapping found for HTTP request with URI [/SSM_D_200517/userController/userList] in DispatcherServlet with name 'dispatcherServlet'" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="145" />
-        <entry key="ENGLISH" value="146" />
+        <entry key="CHINESE" value="147" />
+        <entry key="ENGLISH" value="148" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
