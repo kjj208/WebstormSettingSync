@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Whether to enable default resource handling." />
       <item value="Candidate" />
       <item value="correct" />
       <item value="Return the auto-configuration class names that should be considered. By default * this method will load candidates using {@link SpringFactoriesLoader} with * {@link #getSpringFactoriesLoaderFactoryClass()}. * @param metadata the source metadata * @param attributes the {@link #getAttributes(AnnotationMetadata) annotation * attributes} * @return a list of candidate configurations" />
@@ -50,12 +51,11 @@
       <item value="recursion" />
       <item value="contain" />
       <item value="queue" />
-      <item value="exec" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="148" />
-        <entry key="ENGLISH" value="149" />
+        <entry key="CHINESE" value="150" />
+        <entry key="ENGLISH" value="151" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
