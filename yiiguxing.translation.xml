@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Add a resource handler for serving static resources based on the specified URL path patterns. * The handler will be invoked for every incoming request that matches to one of the specified * path patterns. * &lt;p&gt;Patterns like {@code &quot;/static/**&quot;} or {@code &quot;/css/{filename:\\w+\\.css}&quot;} are allowed. * See {@link org.springframework.util.AntPathMatcher} for more details on the syntax. * @return a {@link ResourceHandlerRegistration} to use to further configure the * registered resource handler" />
+      <item value="Whether a resource handler has already been registered for the given path pattern." />
+      <item value="Path pattern used for static resources." />
       <item value="Whether to enable default resource handling." />
       <item value="Candidate" />
       <item value="correct" />
@@ -48,14 +51,11 @@
       <item value="Locale" />
       <item value="set Scale" />
       <item value="subtract" />
-      <item value="recursion" />
-      <item value="contain" />
-      <item value="queue" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="150" />
-        <entry key="ENGLISH" value="151" />
+        <entry key="CHINESE" value="153" />
+        <entry key="ENGLISH" value="154" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
