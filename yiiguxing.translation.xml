@@ -1,6 +1,14 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Copies the specified array, truncating or padding with nulls (if necessary) * so the copy has the specified length. For all indices that are * valid in both the original array and the copy, the two arrays will * contain identical values. For any indices that are valid in the * copy but not the original, the copy will contain &lt;tt&gt;null&lt;/tt&gt;. * Such indices will exist if and only if the specified length * is greater than that of the original array. * The resulting array is of the class &lt;tt&gt;newType&lt;/tt&gt;." />
+      <item value="the collection whose elements are to be placed into this list" />
+      <item value="Constructs a list containing the elements of the specified * collection, in the order they are returned by the collection's * iterator." />
+      <item value="Capacity" />
+      <item value="Illegal" />
+      <item value="Illegal Argument Exception" />
+      <item value="Constructs an empty list with the specified initial capacity. * * @param initialCapacity the initial capacity of the list * @throws IllegalArgumentException if the specified initial capacity * is negative" />
+      <item value="Constructs an empty list with an initial capacity of ten." />
       <item value="Add a resource handler for serving static resources based on the specified URL path patterns. * The handler will be invoked for every incoming request that matches to one of the specified * path patterns. * &lt;p&gt;Patterns like {@code &quot;/static/**&quot;} or {@code &quot;/css/{filename:\\w+\\.css}&quot;} are allowed. * See {@link org.springframework.util.AntPathMatcher} for more details on the syntax. * @return a {@link ResourceHandlerRegistration} to use to further configure the * registered resource handler" />
       <item value="Whether a resource handler has already been registered for the given path pattern." />
       <item value="Path pattern used for static resources." />
@@ -43,19 +51,11 @@
       <item value="Retrieved" />
       <item value="The easiest way to create a Shiro SecurityManager with configured // realms, users, roles and permissions is to use the simple INI config. // We'll do that by using a factory that can ingest a .ini file and // return a SecurityManager instance:" />
       <item value="authorize" />
-      <item value="preferred" />
-      <item value="Service interface for encoding passwords. * * The preferred implementation is {@code BCryptPasswordEncoder}. * * @author Keith Donald" />
-      <item value="druid" />
-      <item value="Lombok Requires Annotation Processing: Do you want to enable annotation processors" />
-      <item value="locale" />
-      <item value="Locale" />
-      <item value="set Scale" />
-      <item value="subtract" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="153" />
-        <entry key="ENGLISH" value="154" />
+        <entry key="CHINESE" value="161" />
+        <entry key="ENGLISH" value="162" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
