@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Declaring" />
       <item value="The size of the ArrayList (the number of elements it contains)." />
       <item value="Increments modCount!!" />
       <item value="Copies the specified array, truncating or padding with nulls (if necessary) * so the copy has the specified length. For all indices that are * valid in both the original array and the copy, the two arrays will * contain identical values. For any indices that are valid in the * copy but not the original, the copy will contain &lt;tt&gt;null&lt;/tt&gt;. * Such indices will exist if and only if the specified length * is greater than that of the original array. * The resulting array is of the class &lt;tt&gt;newType&lt;/tt&gt;." />
@@ -50,12 +51,11 @@
       <item value="Retrieved the correct value! [aValue]" />
       <item value="is Authenticated" />
       <item value="Retrieved the correct value!" />
-      <item value="Retrieved" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="163" />
-        <entry key="ENGLISH" value="164" />
+        <entry key="CHINESE" value="164" />
+        <entry key="ENGLISH" value="165" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
