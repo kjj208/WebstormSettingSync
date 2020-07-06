@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="configuration" />
+      <item value="Aliases" />
       <item value="Declaring" />
       <item value="The size of the ArrayList (the number of elements it contains)." />
       <item value="Increments modCount!!" />
@@ -49,13 +51,11 @@
       <item value="Would you like to install a shell script formatter?" />
       <item value="Permission" />
       <item value="Retrieved the correct value! [aValue]" />
-      <item value="is Authenticated" />
-      <item value="Retrieved the correct value!" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="164" />
-        <entry key="ENGLISH" value="165" />
+        <entry key="CHINESE" value="166" />
+        <entry key="ENGLISH" value="167" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
