@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="[file:/Users/junjiechen/IdeaProjects/SSM_I_200711/I_web/target/classes/applicationContext.xml]: Cannot create inner bean 'com.github.pagehelper.PageInterceptor#39289dda' of type [com.github.pagehelper.PageInterceptor] while setting bean property 'plugins' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.PageInterceptor#39289dda' defined in URL [file:/Users/junjiechen/IdeaProjects/SSM_I_200711/I_web/target/classes/applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are: PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'properties' threw exception; nested exception is com.github.pagehelper.PageException: java.lang.ClassNotFoundException: mysql" />
+      <item value="Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordersServiceImpl': Unsatisfied dependency expressed through field 'ordersDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordersDao' defined in URL [jar:file:/Users/junjiechen/Maven_Repository/cn/cj/I_dao/1.0-SNAPSHOT/I_dao-1.0-SNAPSHOT.jar!/cn/cj/dao/OrdersDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in URL" />
       <item value="Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'bCryptPasswordEncoder'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)} at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject" />
       <item value="Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordersServiceImpl': Unsatisfied dependency expressed through field 'ordersDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IOrdersDao' defined in URL [jar:file:/Users/junjiechen/Maven_Repository/com/itheima/heima_ssm/heima_ssm_dao/1.0-SNAPSHOT/heima_ssm_dao-1.0-SNAPSHOT.jar!/com/itheima/ssm/dao/IOrdersDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Property" />
       <item value="aused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IOrdersDao' defined in URL [jar:file:/Users/junjiechen/Maven_Repository/com/itheima/heima_ssm/heima_ssm_dao/1.0-SNAPSHOT/heima_ssm_dao-1.0-SNAPSHOT.jar!/com/itheima/ssm/dao/IOrdersDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required" />
@@ -49,13 +51,11 @@
       <item value="automatically" />
       <item value="api selection builder. To complete building the api selector, the build method of the api selector * needs to be called, this will automatically fall back to building the docket when the build method is called." />
       <item value="term Of Service Url" />
-      <item value="meta" />
-      <item value="Configures the global io.swagger.model.SecurityScheme's applicable to all or some of the api * operations. The configuration of which operations have associated SecuritySchemes is configured with * springfox.swagger.plugins.Docket#securityContexts *" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="174" />
-        <entry key="ENGLISH" value="175" />
+        <entry key="CHINESE" value="176" />
+        <entry key="ENGLISH" value="177" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
