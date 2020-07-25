@@ -42,4 +42,15 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="trylock" value="$VAR1$.lock();&#10;try {&#10;  $END$  &#10;}catch (Exception e){&#10;    e.printStackTrace();&#10;}finally {&#10;    $VAR1$.unlock();&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ctn" value="Thread.currentThread().getName()" description="Thread.currentThread().getName(&quot;$END$&quot;)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
