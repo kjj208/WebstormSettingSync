@@ -53,7 +53,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="newThread01" value="new Thread(new Runnable() {&#10;        @Override&#10;        public void run() {&#10;            $END$&#10;        }&#10;    }, $VAR1$).start();" toReformat="false" toShortenFQNames="true">
+  <template name="newthread01" value="new Thread(new Runnable() {&#10;        @Override&#10;        public void run() {&#10;            $END$&#10;        }&#10;    }, $VAR1$).start();" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
