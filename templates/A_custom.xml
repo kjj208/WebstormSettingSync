@@ -42,24 +42,29 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="trylock" value="$VAR1$.lock();&#10;try {&#10;  $END$  &#10;}catch (Exception e){&#10;    e.printStackTrace();&#10;}finally {&#10;    $VAR1$.unlock();&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="trylock(+new ReenrantLock())" value="Lock lock = new ReentrantLock();&#10;$VAR1$.lock();&#10;try {&#10;  $END$  &#10;}catch (Exception e){&#10;    e.printStackTrace();&#10;}finally {&#10;    $VAR1$.unlock();&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="ctn" value="Thread.currentThread().getName()" description="Thread.currentThread().getName(&quot;$END$&quot;)" toReformat="false" toShortenFQNames="true">
+  <template name="getname(thread)" value="Thread.currentThread().getName()" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="newthread01" value="new Thread(new Runnable() {&#10;        @Override&#10;        public void run() {&#10;            $END$&#10;        }&#10;    }, $VAR1$).start();" toReformat="false" toShortenFQNames="true">
+  <template name="newthread(01)" value="new Thread(new Runnable() {&#10;        @Override&#10;        public void run() {&#10;            $END$&#10;        }&#10;    }, $VAR1$).start();" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="forthread_10" value="for (int i = 0; i &lt; 10; i++) {&#10;     new Thread(() -&gt; { &#10;         $END$&#10;     },String.valueOf(i)).start();&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="forthread(for_10)" value="for (int i = 0; i &lt; 10; i++) {&#10;     new Thread(() -&gt; { &#10;         $END$&#10;     },String.valueOf(i)).start();&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newthread(lamdba)" value=" new Thread(() -&gt; {$END$},&quot;A&quot;).start();" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
