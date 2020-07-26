@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="notify" />
       <item value="Interrupted Exception" />
       <item value="Thread state for a waiting thread with a specified waiting time. * A thread is in the timed waiting state due to calling one of * the following methods with a specified positive waiting time:" />
       <item value="Thread state for a terminated thread. * The thread has completed execution." />
@@ -50,12 +51,11 @@
       <item value="Generated" />
       <item value="merge" />
       <item value="Persistence" />
-      <item value="provider" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="183" />
-        <entry key="ENGLISH" value="184" />
+        <entry key="CHINESE" value="184" />
+        <entry key="ENGLISH" value="185" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
