@@ -64,7 +64,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="newthread(lamdba)" value=" new Thread(() -&gt; {$END$},&quot;A&quot;).start();" toReformat="false" toShortenFQNames="true">
+  <template name="newthread(lamdba)" value=" new Thread(() -&gt; {$END$},&quot;A&quot;).start();" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
