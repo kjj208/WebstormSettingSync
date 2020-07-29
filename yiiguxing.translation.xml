@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Comparable" />
       <item value="* This method is not invoked for the main method thread or &quot;system&quot; * group threads created/set up by the VM. Any new functionality added * to this method in the future may have to also be added to the VM. * * A zero status value corresponds to state &quot;NEW&quot;" />
       <item value="signal" />
       <item value="notify" />
@@ -50,12 +51,11 @@
       <item value="Jpa Repository" />
       <item value="Dialect" />
       <item value="Column" />
-      <item value="Generated" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="187" />
-        <entry key="ENGLISH" value="188" />
+        <entry key="CHINESE" value="189" />
+        <entry key="ENGLISH" value="190" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
