@@ -1,0 +1,7 @@
+<templateSet group="A~Nodes">
+  <template name="~~~~" value="~~~" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

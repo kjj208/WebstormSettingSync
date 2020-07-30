@@ -69,4 +69,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="newcomparator(01)" value="new Comparator() {&#10;    @Override&#10;    public int compare(Object o1, Object o2) {&#10;        if (o1 instanceof $VAR1$ &amp;&amp; o2 instanceof $VAR1$) {&#10;            $VAR1$ v1 = ($VAR1$) o1;&#10;            $VAR1$ v2 = ($VAR1$) o2;&#10;//            if (v1.getName().equals(v2.getName())) {&#10;//                return -Double.compare(v1.getPrice(), v2.getPrice());&#10;//            } else {&#10;//                return v1.getName().compareTo(v2.getName());&#10;//            }&#10;        }&#10;        throw new RuntimeException(&quot;输入的数据类型不一致&quot;);&#10;    }&#10;}&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

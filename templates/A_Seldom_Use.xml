@@ -1,0 +1,7 @@
+<templateSet group="A~Seldom_Use">
+  <template name="~ssystem" value="@Test&#10;    public void test1() {&#10;        String javaVersion = System.getProperty(&quot;java.version&quot;);&#10;        System.out.println(&quot;java的version:&quot; + javaVersion);&#10;&#10;        String javaHome = System.getProperty(&quot;java.home&quot;);&#10;        System.out.println(&quot;java的home:&quot; + javaHome);&#10;&#10;        String osName = System.getProperty(&quot;os.name&quot;);&#10;        System.out.println(&quot;os的name:&quot; + osName);&#10;&#10;        String osVersion = System.getProperty(&quot;os.version&quot;);&#10;        System.out.println(&quot;os的version:&quot; + osVersion);&#10;&#10;        String userName = System.getProperty(&quot;user.name&quot;);&#10;        System.out.println(&quot;user的name:&quot; + userName);&#10;&#10;        String userHome = System.getProperty(&quot;user.home&quot;);&#10;        System.out.println(&quot;user的home:&quot; + userHome);&#10;&#10;        String userDir = System.getProperty(&quot;user.dir&quot;);&#10;        System.out.println(&quot;user的dir:&quot; + userDir);&#10;&#10;    }" description="system类获取java......信息" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
