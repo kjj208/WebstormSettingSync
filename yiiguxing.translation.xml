@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Field number for &lt;code&gt;get&lt;/code&gt; and &lt;code&gt;set&lt;/code&gt; indicating the * minute within the hour. * E.g., at 10:04:15.250 PM the &lt;code&gt;MINUTE&lt;/code&gt; is 4." />
       <item value="/* * Package private constructor which shares value array for speed. * this constructor is always expected to be called with share==true. * a separate constructor is needed because we already have a public * String(char[]) constructor that makes a copy of the given char[]." />
       <item value="Comparable" />
       <item value="* This method is not invoked for the main method thread or &quot;system&quot; * group threads created/set up by the VM. Any new functionality added * to this method in the future may have to also be added to the VM. * * A zero status value corresponds to state &quot;NEW&quot;" />
@@ -50,12 +51,11 @@
       <item value="Specification" />
       <item value="org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection" />
       <item value="Jpa Repository" />
-      <item value="Dialect" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="190" />
-        <entry key="ENGLISH" value="191" />
+        <entry key="CHINESE" value="191" />
+        <entry key="ENGLISH" value="192" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
