@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="* Returns a list-iterator of the elements in this list (in proper * sequence), starting at the specified position in the list. * Obeys the general contract of {@code List.listIterator(int)}.&lt;p&gt; * * The list-iterator is &lt;i&gt;fail-fast&lt;/i&gt;: if the list is structurally * modified at any time after the Iterator is created, in any way except * through the list-iterator's own {@code remove} or {@code add} * methods, the list-iterator will throw a * {@code ConcurrentModificationException}. Thus, in the face of * concurrent modification, the iterator fails quickly and cleanly, rather * than risking arbitrary, non-deterministic behavior at an undetermined * time in the future. * * @param index index of the first element to be returned from the * list-iterator (by a call to {@code next}) * @return a ListIterator of the elements in this list (in proper * sequence), starting at the specified position in the list * @throws IndexOutOfBoundsException {@inheritDoc} * @see List#listIterator(int)" />
       <item value="DEFAULT LOAD FACTOR" />
       <item value="Iterator" />
       <item value="constant" />
@@ -50,12 +51,11 @@
       <item value="mapped" />
       <item value="fetch" />
       <item value="Specification Executor" />
-      <item value="nested exception is javax.persistence.RollbackException: Transaction marked as rollbackOnly" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="196" />
-        <entry key="ENGLISH" value="197" />
+        <entry key="CHINESE" value="197" />
+        <entry key="ENGLISH" value="198" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
