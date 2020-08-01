@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping pattern="sparseArrayFile" type="PLAIN_TEXT" />
+      <mapping ext="edf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
