@@ -75,4 +75,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="switch[int]" value="int i = 0;&#10;switch (i) {&#10;    case 0:&#10;&#10;        break;&#10;    case 1:&#10;&#10;        break;&#10;    case 2:&#10;&#10;        break;&#10;    default:&#10;        System.out.println(&quot;default&quot;);&#10;        break;&#10;}" description="int i = 0; switch(i)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
