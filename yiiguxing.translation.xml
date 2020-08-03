@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Delete Records" />
+      <item value="Add New Records" />
+      <item value="Search for specific Record(s)" />
+      <item value="Print Names and Phone Numbers (formatted)" />
+      <item value="Print Names and Phone Numbers" />
+      <item value="Print All Current Records (formatted)" />
+      <item value="Print All Current Records" />
       <item value="The number of times this list has been &lt;i&gt;structurally modified&lt;/i&gt;. * Structural modifications are those that change the size of the * list, or otherwise perturb it in such a fashion that iterations in * progress may yield incorrect results." />
       <item value="The number of times this list has been &lt;i&gt;structurally modified&lt;/i&gt;." />
       <item value="The number of times this list has been &lt;i&gt;structurally modified&lt;/i&gt;. * Structural modifications are those that change the size of the * list, or otherwise perturb it in such a fashion that iterations in * progress may yield incorrect results. * * &lt;p&gt;This field is used by the iterator and list iterator implementation * returned by the {@code iterator} and {@code listIterator} methods. * If the value of this field changes unexpectedly, the iterator (or list * iterator) will throw a {@code ConcurrentModificationException} in * response to the {@code next}, {@code remove}, {@code previous}, * {@code set} or {@code add} operations. This provides * &lt;i&gt;fail-fast&lt;/i&gt; behavior, rather than non-deterministic behavior in * the face of concurrent modification during iteration. * * &lt;p&gt;&lt;b&gt;Use of this field by subclasses is optional.&lt;/b&gt; If a subclass * wishes to provide fail-fast iterators (and list iterators), then it * merely has to increment this field in its {@code add(int, E)} and * {@code remove(int)} methods (and any other methods that it overrides * that result in structural modifications to the list). A single call to * {@code add(int, E)} or {@code remove(int)} must add no more than * one to this field, or the iterators (and list iterators) will throw * bogus {@code ConcurrentModificationExceptions}. If an implementation * does not wish to provide fail-fast iterators, this field may be" />
@@ -44,18 +51,11 @@
       <item value="Illegal Argument Exception" />
       <item value="Constructs an empty list with the specified initial capacity. * * @param initialCapacity the initial capacity of the list * @throws IllegalArgumentException if the specified initial capacity * is negative" />
       <item value="Constructs an empty list with an initial capacity of ten." />
-      <item value="Add a resource handler for serving static resources based on the specified URL path patterns. * The handler will be invoked for every incoming request that matches to one of the specified * path patterns. * &lt;p&gt;Patterns like {@code &quot;/static/**&quot;} or {@code &quot;/css/{filename:\\w+\\.css}&quot;} are allowed. * See {@link org.springframework.util.AntPathMatcher} for more details on the syntax. * @return a {@link ResourceHandlerRegistration} to use to further configure the * registered resource handler" />
-      <item value="Whether a resource handler has already been registered for the given path pattern." />
-      <item value="Path pattern used for static resources." />
-      <item value="Whether to enable default resource handling." />
-      <item value="Candidate" />
-      <item value="correct" />
-      <item value="Return the auto-configuration class names that should be considered. By default * this method will load candidates using {@link SpringFactoriesLoader} with * {@link #getSpringFactoriesLoaderFactoryClass()}. * @param metadata the source metadata * @param attributes the {@link #getAttributes(AnnotationMetadata) annotation * attributes} * @return a list of candidate configurations" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="200" />
-        <entry key="ENGLISH" value="201" />
+        <entry key="CHINESE" value="207" />
+        <entry key="ENGLISH" value="208" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
