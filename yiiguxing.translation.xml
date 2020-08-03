@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Press Enter to continue..." />
+      <item value="No selection entered. Press Enter to continue…" />
       <item value="Invalid code! Press Enter to continue…" />
       <item value="Delete Records" />
       <item value="Add New Records" />
@@ -49,13 +51,11 @@
       <item value="Constructs a list containing the elements of the specified * collection, in the order they are returned by the collection's * iterator." />
       <item value="Capacity" />
       <item value="Illegal" />
-      <item value="Illegal Argument Exception" />
-      <item value="Constructs an empty list with the specified initial capacity. * * @param initialCapacity the initial capacity of the list * @throws IllegalArgumentException if the specified initial capacity * is negative" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="208" />
-        <entry key="ENGLISH" value="209" />
+        <entry key="CHINESE" value="210" />
+        <entry key="ENGLISH" value="211" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
