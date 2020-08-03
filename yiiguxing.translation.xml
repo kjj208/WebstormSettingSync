@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Invalid code! Press Enter to continue…" />
       <item value="Delete Records" />
       <item value="Add New Records" />
       <item value="Search for specific Record(s)" />
@@ -50,12 +51,11 @@
       <item value="Illegal" />
       <item value="Illegal Argument Exception" />
       <item value="Constructs an empty list with the specified initial capacity. * * @param initialCapacity the initial capacity of the list * @throws IllegalArgumentException if the specified initial capacity * is negative" />
-      <item value="Constructs an empty list with an initial capacity of ten." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="207" />
-        <entry key="ENGLISH" value="208" />
+        <entry key="CHINESE" value="208" />
+        <entry key="ENGLISH" value="209" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
