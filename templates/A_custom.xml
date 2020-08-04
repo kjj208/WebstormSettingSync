@@ -80,4 +80,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="whiles_witch[控制台程序]" value="Scanner scanner = new Scanner(System.in);&#10;boolean loop = true;&#10;String in = &quot;&quot;;&#10;while (loop) {&#10;    in = scanner.nextLine().toLowerCase();&#10;    switch (in) {&#10;        case &quot;a&quot;:&#10;            System.out.println(&quot;a&quot;);&#10;            break;&#10;        case &quot;q&quot;:&#10;            System.out.println(&quot;程序退出！&quot;);&#10;            scanner.close();&#10;            loop = false;&#10;            break;&#10;        default:&#10;            break;&#10;    }&#10;}&#10;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
