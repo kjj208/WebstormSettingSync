@@ -1,6 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="DEFAULTCAPACITY EMPTY ELEMENTDATA" />
+      <item value="Capacity" />
+      <item value="calculate Capacity" />
+      <item value="ensure Capacity Internal" />
+      <item value="Internal" />
+      <item value="Increments modCount!" />
       <item value="Adfaith Consulting - Employee Information - Main Menu" />
       <item value="Press Enter to continue..." />
       <item value="No selection entered. Press Enter to continue…" />
@@ -45,17 +51,11 @@
       <item value="configuration" />
       <item value="Aliases" />
       <item value="Declaring" />
-      <item value="The size of the ArrayList (the number of elements it contains)." />
-      <item value="Increments modCount!!" />
-      <item value="Copies the specified array, truncating or padding with nulls (if necessary) * so the copy has the specified length. For all indices that are * valid in both the original array and the copy, the two arrays will * contain identical values. For any indices that are valid in the * copy but not the original, the copy will contain &lt;tt&gt;null&lt;/tt&gt;. * Such indices will exist if and only if the specified length * is greater than that of the original array. * The resulting array is of the class &lt;tt&gt;newType&lt;/tt&gt;." />
-      <item value="the collection whose elements are to be placed into this list" />
-      <item value="Constructs a list containing the elements of the specified * collection, in the order they are returned by the collection's * iterator." />
-      <item value="Capacity" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="211" />
-        <entry key="ENGLISH" value="212" />
+        <entry key="CHINESE" value="217" />
+        <entry key="ENGLISH" value="218" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
