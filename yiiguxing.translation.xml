@@ -1,6 +1,8 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="evict" />
+      <item value="only If Absent" />
       <item value="starting position in the source array." />
       <item value="Internal" />
       <item value="DEFAULTCAPACITY EMPTY ELEMENTDATA" />
@@ -49,13 +51,11 @@
       <item value="component" />
       <item value="reference" />
       <item value="aggressive Lazy Loading" />
-      <item value="configuration" />
-      <item value="Aliases" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="219" />
-        <entry key="ENGLISH" value="220" />
+        <entry key="CHINESE" value="221" />
+        <entry key="ENGLISH" value="222" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
