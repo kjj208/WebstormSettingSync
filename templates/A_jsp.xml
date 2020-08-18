@@ -1,5 +1,5 @@
 <templateSet group="A~jsp">
-  <template name="aclickbottom" value="&lt;a href='javascript:void(0);' onclick='$END$'&gt;&lt;/a&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="aclickbottom" value="&lt;a href='javascript:void(0);' onclick='$END$'&gt;&lt;/a&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
