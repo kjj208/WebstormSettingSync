@@ -4,14 +4,13 @@
     <property name="created">2020-02-02T15:55:06</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2019.3.2.0.0</property>
-    <property name="modified">2020-08-29T14:07:46</property>
+    <property name="modified">2020-08-29T14:28:51</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="13" />
-  <option name="EDITOR_FONT_NAME" value="Consolas" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="12" />
   <attributes>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
