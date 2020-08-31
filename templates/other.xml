@@ -1,0 +1,49 @@
+<templateSet group="other">
+  <template name="inst" value="if ($EXPR$ instanceof $TYPE$) {&#10;  $TYPE$ $VAR1$ = ($TYPE$)$EXPR$;&#10;  $END$&#10;}" description="检查对象类型和运算符和下投下它" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;Object&quot;)" defaultValue="expr" alwaysStopAt="true" />
+    <variable name="TYPE" expression="&quot;Object&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR1" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="lst" value="$ARRAY$[$ARRAY$.length - 1]" description="获取数组的最后一个元素" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="arrayVariable()" defaultValue="array" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="mn" value="$VAR$ = Math.min($VAR$, $END$);" description="集较小值给一个变量" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="variableOfType(&quot;double&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="mx" value="$VAR$ = Math.max($VAR$, $END$);" description="设置变量更大的价值" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="variableOfType(&quot;double&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="psvm" value="public static void main(String[] args){&#10;  $END$&#10;}" description="main() 方法声明" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="main" value="public static void main(String[] args){&#10;  $END$&#10;}" description="main() 方法声明" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="toar" value="$COLLECTION$.toArray(new $COMPONENT_TYPE$[$COLLECTION$.size()])$END$" description="存储元素的java跑龙套.收集到数组" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT_TYPE" expression="componentTypeOf(expectedType())" defaultValue="&quot;Object&quot;" alwaysStopAt="true" />
+    <variable name="COLLECTION" expression="variableOfType(&quot;java.util.Collection&quot;)" defaultValue="collection" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="lazy" value="if ($VAR$ == null) {&#10;  $VAR$ = new $TYPE$($END$);&#10;}" description="执行延迟初始化" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="variableOfType(&quot;java.lang.Object&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="subtypes(typeOfVariable(VAR))" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="inn" value="if ($VAR$ != null) {&#10;$END$&#10;}" description="插入'if not null'语句" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="suggestFirstVariableName(&quot;Object&quot;)" defaultValue="var" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="ifn" value="if ($VAR$ == null) {&#10;$END$&#10;}" description="插入'if null'语句" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="suggestFirstVariableName(&quot;Object&quot;)" defaultValue="var" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="geti" value="public static $CLASS_NAME$ getInstance() {&#10;  return $VALUE$;&#10;}" description="插入单例方法getInstance" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className" defaultValue="" alwaysStopAt="false" />
+    <variable name="VALUE" expression="variableOfType(CLASS_NAME)" defaultValue="null" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

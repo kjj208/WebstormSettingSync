@@ -1,0 +1,7 @@
+<templateSet group="A~JUC">
+  <template name="trysleep" value="try {&#10;    TimeUnit.SECONDS.sleep($END$);&#10;} catch (InterruptedException e) {&#10;    e.printStackTrace();&#10;}" description="(TimeUnit)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

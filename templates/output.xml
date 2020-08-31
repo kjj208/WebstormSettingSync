@@ -1,0 +1,25 @@
+<templateSet group="output">
+  <template name="serr" value="System.err.println($END$);" description="打印一个字符串到System.err" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="sout" value="System.out.println($END$);" description="打印一个字符串到System.out" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="souf" value="System.out.printf(&quot;$END$&quot;);" description="打印一个格式化字符串到System.out" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="soutm" value="System.out.println(&quot;$CLASS_NAME$.$METHOD_NAME$&quot;);" description="打印当前的类名和方法名到System.out" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="soutp" value="System.out.println($FORMAT$);" description="打印方法参数的名称和值到System.out" toReformat="true" toShortenFQNames="true">
+    <variable name="FORMAT" expression="groovyScript(&quot;import com.intellij.psi.*;import com.intellij.psi.util.PsiTreeUtil; def file = PsiDocumentManager.getInstance(_editor.project).getPsiFile(_editor.document); PsiMethod method = PsiTreeUtil.findElementOfClassAtOffset(file, _editor.caretModel.offset, PsiMethod.class, false); PsiParameter[] parameters = method == null ? PsiParameter.EMPTY_ARRAY : method.parameterList.parameters; return parameters.size() == 0 ? '' : '\&quot;' + parameters.collect { def prefix = it.name + ' = '; def type = it.type; return type instanceof PsiArrayType ? type.componentType instanceof PsiPrimitiveType ? prefix + '\&quot; + java.util.Arrays.toString(' + it.name + ')' : prefix + '\&quot; + java.util.Arrays.deepToString(' + it.name + ')' : prefix + '\&quot; + ' + it.name }.join(' + \&quot;, ')&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="soutv" value="System.out.println(&quot;$EXPR_COPY$ = &quot; + $EXPR$);" description="打印一个值System.out" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+</templateSet>
