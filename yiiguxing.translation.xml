@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Synchronous Queue" />
       <item value="Count Down Latch" />
       <item value="for (int i = 0; i &lt; 6; i++) { new Thread(() -&gt; { System.out.println(Thread.currentThread().getName()+&quot;\t离开教室&quot;); },String.valueOf(i)).start(); } System.out.println(&quot;关门&quot;);" />
       <item value="Invalid bound statement" />
@@ -50,12 +51,11 @@
       <item value="Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordersServiceImpl': Unsatisfied dependency expressed through field 'ordersDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IOrdersDao' defined in URL [jar:file:/Users/junjiechen/Maven_Repository/com/itheima/heima_ssm/heima_ssm_dao/1.0-SNAPSHOT/heima_ssm_dao-1.0-SNAPSHOT.jar!/com/itheima/ssm/dao/IOrdersDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Property" />
       <item value="aused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IOrdersDao' defined in URL [jar:file:/Users/junjiechen/Maven_Repository/com/itheima/heima_ssm/heima_ssm_dao/1.0-SNAPSHOT/heima_ssm_dao-1.0-SNAPSHOT.jar!/com/itheima/ssm/dao/IOrdersDao.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Property 'sqlSessionFactory' or 'sqlSessionTemplate' are required" />
       <item value="org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordersServiceImpl': Unsatisfied dependency expressed through field 'ordersDao'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'IOrdersDao' defined in URL [jar:file:/Users/junjiechen/Maven_Repository/com/itheima/heima_ssm/heima_ssm_dao/1.0-SNAPSHOT/heima_ssm_dao-1.0-SNAPSHOT" />
-      <item value="2020-07-11 21:13:55,401 517 [ost-startStop-1] ERROR work.web.context.ContextLoader - Context initialization failed" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="224" />
-        <entry key="ENGLISH" value="226" />
+        <entry key="CHINESE" value="225" />
+        <entry key="ENGLISH" value="227" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
