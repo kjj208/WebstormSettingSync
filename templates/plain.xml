@@ -4,19 +4,7 @@
     <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="St" value="String " description="字符串" toReformat="false" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="psf" value="public static final " description="public static final" toReformat="false" toShortenFQNames="false">
-    <context />
-  </template>
   <template name="prsf" value="private static final " description="私有静态 final" toReformat="false" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="psfs" value="public static final String " description="public static final String" toReformat="false" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="thr" value="throw new " description="引发新" toReformat="false" toShortenFQNames="false">
     <context />
   </template>
 </templateSet>
