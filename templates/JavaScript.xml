@@ -79,24 +79,6 @@
     <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="log" value="console.log($END$)" description="console.log()" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="error" value="console.error($END$)" description="console.error()" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="warn" value="console.warn($END$)" description="console.warn()" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="info" value="console.info($END$)" description="console.info()" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="trace" value="console.trace($END$)" description="console.trace()" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="assert" value="console.assert($END$)" description="console.assert()" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
   <template name="us" value="&quot;use strict&quot;;&#10;$END$" description="插入 'use strict' 语句" toReformat="true" toShortenFQNames="true">
     <context />
   </template>

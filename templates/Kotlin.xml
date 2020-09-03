@@ -25,11 +25,6 @@
     <variable name="FORMAT" expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [${' + it + '}]'}.join(', ') + '\&quot;'&quot;, functionParameters())" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
-  <template name="soutf" value="println(&quot;$CLASS$.$METHOD$&quot;)" description="Prints current class and function name to System.out" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS" expression="groovyScript(&quot;_1 ?: '&lt;top&gt;'&quot;, kotlinClassName())" defaultValue="" alwaysStopAt="false" />
-    <variable name="METHOD" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
-    <context />
-  </template>
   <template name="iter" value="for ($VAR$ in $ITERABLE$) {&#10;$END$&#10;}" description="迭代 iterable 的元素(for-in loop)" toReformat="true" toShortenFQNames="true">
     <variable name="ITERABLE" expression="kotlinVariable()" defaultValue="&quot;iterable&quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="kotlinSuggestVariableName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
