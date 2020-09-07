@@ -14,6 +14,10 @@
           <option name="url" value="https://gitee.com/kjj208/git_test_module01.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/zhyocean/MyBlog.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/MyDocuments/git/git_test" />
