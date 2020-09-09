@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the (non-null) Node at the specified element index." />
       <item value="@param src the source array. * @param srcPos starting position in the source array. * @param dest the destination array. * @param destPos starting position in the destination data. * @param length the number of array elements to be copied." />
       <item value="Policy" />
       <item value="Rejected" />
@@ -50,12 +51,11 @@
       <item value="Unsatisfied Dependency Exception" />
       <item value="[file:/Users/junjiechen/IdeaProjects/SSM_I_200711/I_web/target/classes/applicationContext.xml]: Cannot create inner bean 'com.github.pagehelper.PageInterceptor#39289dda' of type [com.github.pagehelper.PageInterceptor] while setting bean property 'plugins' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.PageInterceptor#39289dda' defined in URL [file:/Users/junjiechen/IdeaProjects/SSM_I_200711/I_web/target/classes/applicationContext.xml]: Error setting property values; nested exception is org.springframework.beans.PropertyBatchUpdateException; nested PropertyAccessExceptions (1) are: PropertyAccessException 1: org.springframework.beans.MethodInvocationException: Property 'properties' threw exception; nested exception is com.github.pagehelper.PageException: java.lang.ClassNotFoundException: mysql" />
       <item value="Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordersServiceImpl': Unsatisfied dependency expressed through field 'ordersDao'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordersDao' defined in URL [jar:file:/Users/junjiechen/Maven_Repository/cn/cj/I_dao/1.0-SNAPSHOT/I_dao-1.0-SNAPSHOT.jar!/cn/cj/dao/OrdersDao.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in URL" />
-      <item value="Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'bCryptPasswordEncoder'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)} at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="229" />
-        <entry key="ENGLISH" value="231" />
+        <entry key="CHINESE" value="230" />
+        <entry key="ENGLISH" value="232" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
