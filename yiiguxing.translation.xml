@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Replaces all linked nodes in bin at index for given hash unless * table is too small, in which case resizes instead." />
       <item value="The next size value at which to resize (capacity * load factor)." />
       <item value="the table is in creation mode." />
       <item value="Adds the specified element as the tail (last element) of this list." />
@@ -50,12 +51,11 @@
       <item value="signal" />
       <item value="notify" />
       <item value="Interrupted Exception" />
-      <item value="Thread state for a waiting thread with a specified waiting time. * A thread is in the timed waiting state due to calling one of * the following methods with a specified positive waiting time:" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="236" />
-        <entry key="ENGLISH" value="238" />
+        <entry key="CHINESE" value="237" />
+        <entry key="ENGLISH" value="239" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
