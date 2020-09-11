@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="release" />
+      <item value="acquire" />
+      <item value="** * Releases a permit, returning it to the semaphore. * * &lt;p&gt;Releases a permit, increasing the number of available permits by * one. If any threads are trying to acquire a permit, then one is * selected and given the permit that was just released. That thread * is (re)enabled for thread scheduling purposes. * * &lt;p&gt;There is no requirement that a thread that releases a permit must * have acquired that permit by calling {@link #acquire}. * Correct usage of a semaphore is established by programming convention * in the application. */" />
       <item value="Barrier" />
       <item value="Semaphore" />
       <item value="usable bits of normal node hash" />
@@ -48,14 +51,11 @@
       <item value="DEFAULT LOAD FACTOR" />
       <item value="Iterator" />
       <item value="constant" />
-      <item value="subtract" />
-      <item value="Field number for &lt;code&gt;get&lt;/code&gt; and &lt;code&gt;set&lt;/code&gt; indicating the * minute within the hour. * E.g., at 10:04:15.250 PM the &lt;code&gt;MINUTE&lt;/code&gt; is 4." />
-      <item value="/* * Package private constructor which shares value array for speed. * this constructor is always expected to be called with share==true. * a separate constructor is needed because we already have a public * String(char[]) constructor that makes a copy of the given char[]." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="244" />
-        <entry key="ENGLISH" value="246" />
+        <entry key="CHINESE" value="247" />
+        <entry key="ENGLISH" value="249" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
