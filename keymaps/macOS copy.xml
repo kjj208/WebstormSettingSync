@@ -23,6 +23,10 @@
     <keyboard-shortcut first-keystroke="shift meta f9" />
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="meta f9" />
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="Console.Execute.Multiline" />
   <action id="Console.Jpa.GenerateSql" />
   <action id="Debug" />
@@ -85,6 +89,7 @@
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="ctrl meta n" />
   </action>
+  <action id="NextWindow" />
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="meta p" />
     <keyboard-shortcut first-keystroke="ctrl e" />
