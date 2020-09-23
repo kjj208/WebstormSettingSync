@@ -85,4 +85,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="mainboot" value=" public static void main(String[] args) {&#10;        SpringApplication.run($VAR1$.class,args);&#10;    }&#10;" description="springboot 启动类" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
