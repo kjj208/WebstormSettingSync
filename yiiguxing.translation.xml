@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Content Negotiating View Resolver" />
       <item value="release" />
       <item value="acquire" />
       <item value="** * Releases a permit, returning it to the semaphore. * * &lt;p&gt;Releases a permit, increasing the number of available permits by * one. If any threads are trying to acquire a permit, then one is * selected and given the permit that was just released. That thread * is (re)enabled for thread scheduling purposes. * * &lt;p&gt;There is no requirement that a thread that releases a permit must * have acquired that permit by calling {@link #acquire}. * Correct usage of a semaphore is established by programming convention * in the application. */" />
@@ -50,12 +51,11 @@
       <item value="* Returns a list-iterator of the elements in this list (in proper * sequence), starting at the specified position in the list. * Obeys the general contract of {@code List.listIterator(int)}.&lt;p&gt; * * The list-iterator is &lt;i&gt;fail-fast&lt;/i&gt;: if the list is structurally * modified at any time after the Iterator is created, in any way except * through the list-iterator's own {@code remove} or {@code add} * methods, the list-iterator will throw a * {@code ConcurrentModificationException}. Thus, in the face of * concurrent modification, the iterator fails quickly and cleanly, rather * than risking arbitrary, non-deterministic behavior at an undetermined * time in the future. * * @param index index of the first element to be returned from the * list-iterator (by a call to {@code next}) * @return a ListIterator of the elements in this list (in proper * sequence), starting at the specified position in the list * @throws IndexOutOfBoundsException {@inheritDoc} * @see List#listIterator(int)" />
       <item value="DEFAULT LOAD FACTOR" />
       <item value="Iterator" />
-      <item value="constant" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="249" />
-        <entry key="ENGLISH" value="251" />
+        <entry key="CHINESE" value="253" />
+        <entry key="ENGLISH" value="255" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
