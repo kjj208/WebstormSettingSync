@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Invocation" />
       <item value="Isolation" />
       <item value="Propagation" />
       <item value="/* * InheritableThreadLocal values pertaining to this thread. This map is * maintained by the InheritableThreadLocal class. */" />
@@ -50,12 +51,11 @@
       <item value="Add New Records" />
       <item value="Search for specific Record(s)" />
       <item value="Print Names and Phone Numbers (formatted)" />
-      <item value="Print Names and Phone Numbers" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="266" />
-        <entry key="ENGLISH" value="268" />
+        <entry key="CHINESE" value="267" />
+        <entry key="ENGLISH" value="269" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
