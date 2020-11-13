@@ -37,4 +37,58 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="if" value="if($END$){&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="trylock(+new ReenrantLock())" value="Lock lock = new ReentrantLock();&#10;$VAR1$.lock();&#10;try {&#10;  $END$  &#10;}catch (Exception e){&#10;    e.printStackTrace();&#10;}finally {&#10;    $VAR1$.unlock();&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="getname(thread)" value="Thread.currentThread().getName()" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newthread(01)" value="new Thread(new Runnable() {&#10;        @Override&#10;        public void run() {&#10;            $END$&#10;        }&#10;    }, $VAR1$).start();" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="forthread(for_10)" value="for (int i = 0; i &lt; 10; i++) {&#10;     new Thread(() -&gt; { &#10;         $END$&#10;     },String.valueOf(i)).start();&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newthread(lamdba)" value=" new Thread(() -&gt; {$END$},&quot;A&quot;).start();" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="newcomparator(01)" value="new Comparator() {&#10;    @Override&#10;    public int compare(Object o1, Object o2) {&#10;        if (o1 instanceof $VAR1$ &amp;&amp; o2 instanceof $VAR1$) {&#10;            $VAR1$ v1 = ($VAR1$) o1;&#10;            $VAR1$ v2 = ($VAR1$) o2;&#10;//            if (v1.getName().equals(v2.getName())) {&#10;//                return -Double.compare(v1.getPrice(), v2.getPrice());&#10;//            } else {&#10;//                return v1.getName().compareTo(v2.getName());&#10;//            }&#10;        }&#10;        throw new RuntimeException(&quot;输入的数据类型不一致&quot;);&#10;    }&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="switch[int]" value="int i = 0;&#10;switch (i) {&#10;    case 0:&#10;&#10;        break;&#10;    case 1:&#10;&#10;        break;&#10;    case 2:&#10;&#10;        break;&#10;    default:&#10;        System.out.println(&quot;default&quot;);&#10;        break;&#10;}" description="int i = 0; switch(i)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="whiles_witch[控制台程序]" value="Scanner scanner = new Scanner(System.in);&#10;boolean loop = true;&#10;String in = &quot;&quot;;&#10;while (loop) {&#10;    in = scanner.nextLine().toLowerCase();&#10;    switch (in) {&#10;        case &quot;a&quot;:&#10;            System.out.println(&quot;a&quot;);&#10;            break;&#10;        case &quot;q&quot;:&#10;            System.out.println(&quot;程序退出！&quot;);&#10;            scanner.close();&#10;            loop = false;&#10;            break;&#10;        default:&#10;            break;&#10;    }&#10;}&#10;&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mainboot" value=" public static void main(String[] args) {&#10;        SpringApplication.run($VAR1$.class,args);&#10;    }&#10;" description="springboot 启动类" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

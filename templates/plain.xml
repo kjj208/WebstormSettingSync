@@ -4,4 +4,7 @@
     <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="prsf" value="private static final " description="私有静态 final" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
 </templateSet>

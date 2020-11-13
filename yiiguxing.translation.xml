@@ -1,57 +1,65 @@
 <application>
   <component name="AppStorage">
     <histories>
-      <item value="10-Apr-2020 18:44:50.672 严重 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class cn.itcast.util.JdbcUtil] with root cause java.lang.NoClassDefFoundError: Could not initialize class cn.itcast.util.JdbcUtil" />
-      <item value="&lt;!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -" />
-      <item value="&lt;!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom)" />
-      <item value="Context" />
-      <item value="Spring Configuration Check Unmapped Spring configuration files found. Please configure Spring facet or use 'Create Default Context' to add one including all unmapped files. springmvc_day02_03_exception (1 file) Create Default Context Show Help Disable..." />
-      <item value="Invalid Maven home directory configured /Users/junjiechen/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3 Bundled maven 3.6.1 will be used. Configure Maven home." />
-      <item value="Array Index Out Of Bounds Exception" />
-      <item value="invoke" />
-      <item value="set Accessible" />
-      <item value="get Declared Field" />
-      <item value="Declared Methods" />
-      <item value="Declared" />
-      <item value="You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near" />
-      <item value="Attempted to convert SQLException to SQLException. Leaving it alone." />
-      <item value="The 'limit' property of null is not a List or Array." />
-      <item value="Array" />
-      <item value="Mapped Statements collection already contains value for cn.cj.dao.AccountDao.queryAll" />
-      <item value="assembling" />
-      <item value="goal" />
-      <item value="nested" />
-      <item value="candidates" />
-      <item value="process" />
-      <item value="batch" />
-      <item value="insert" />
-      <item value="load" />
-      <item value="annotation" />
-      <item value="Resolver" />
-      <item value="Sys Exception Resolver" />
+      <item value="Invocation" />
+      <item value="Isolation" />
+      <item value="Propagation" />
+      <item value="/* * InheritableThreadLocal values pertaining to this thread. This map is * maintained by the InheritableThreadLocal class. */" />
+      <item value="/* ThreadLocal values pertaining to this thread. This map is maintained * by the ThreadLocal class. */" />
+      <item value="initial Value" />
+      <item value="Custom Constant" />
+      <item value="tracker" />
+      <item value="Handler Interceptor" />
+      <item value="Content Negotiating View Resolver" />
+      <item value="release" />
+      <item value="acquire" />
+      <item value="** * Releases a permit, returning it to the semaphore. * * &lt;p&gt;Releases a permit, increasing the number of available permits by * one. If any threads are trying to acquire a permit, then one is * selected and given the permit that was just released. That thread * is (re)enabled for thread scheduling purposes. * * &lt;p&gt;There is no requirement that a thread that releases a permit must * have acquired that permit by calling {@link #acquire}. * Correct usage of a semaphore is established by programming convention * in the application. */" />
+      <item value="Barrier" />
+      <item value="Semaphore" />
+      <item value="usable bits of normal node hash" />
+      <item value="Table initialization and resizing control. When negative, the * table is being initialized or resized: -1 for initialization, * else -(1 + the number of active resizing threads). Otherwise, * when table is null, holds the initial table size to use upon * creation, or 0 for default. After initialization, holds the * next element count value upon which to resize the table. */" />
+      <item value="init Table" />
+      <item value="Replaces all linked nodes in bin at index for given hash unless * table is too small, in which case resizes instead." />
+      <item value="The next size value at which to resize (capacity * load factor)." />
+      <item value="the table is in creation mode." />
+      <item value="Adds the specified element as the tail (last element) of this list." />
+      <item value="offer" />
+      <item value="poll" />
+      <item value="peek" />
+      <item value="Returns the (non-null) Node at the specified element index." />
+      <item value="@param src the source array. * @param srcPos starting position in the source array. * @param dest the destination array. * @param destPos starting position in the destination data. * @param length the number of array elements to be copied." />
+      <item value="Policy" />
+      <item value="Rejected" />
+      <item value="Synchronous Queue" />
+      <item value="Count Down Latch" />
+      <item value="for (int i = 0; i &lt; 6; i++) { new Thread(() -&gt; { System.out.println(Thread.currentThread().getName()+&quot;\t离开教室&quot;); },String.valueOf(i)).start(); } System.out.println(&quot;关门&quot;);" />
+      <item value="Invalid bound statement" />
+      <item value="evict" />
+      <item value="only If Absent" />
+      <item value="starting position in the source array." />
       <item value="Internal" />
-      <item value="Internal Resource View Resolver" />
-      <item value="Sys Exception" />
-      <item value="Input Stream" />
-      <item value="true" />
-      <item value="System" />
-      <item value="user Dao" />
-      <item value="Insert" />
-      <item value="util" />
-      <item value="JDBC Util" />
-      <item value="A thread-safe, mutable sequence of characters. * A string buffer is like a {@link String}, but can be modified. At any * point in time it contains some particular sequence of characters, but * the length and content of the sequence can be changed through certain * method calls." />
-      <item value="try" />
-      <item value="String Buffer" />
-      <item value="Array List" />
-      <item value="null" />
+      <item value="DEFAULTCAPACITY EMPTY ELEMENTDATA" />
+      <item value="Capacity" />
+      <item value="calculate Capacity" />
+      <item value="ensure Capacity Internal" />
+      <item value="Increments modCount!" />
+      <item value="Adfaith Consulting - Employee Information - Main Menu" />
+      <item value="Press Enter to continue..." />
+      <item value="No selection entered. Press Enter to continue…" />
+      <item value="Invalid code! Press Enter to continue…" />
+      <item value="Delete Records" />
+      <item value="Add New Records" />
+      <item value="Search for specific Record(s)" />
+      <item value="Print Names and Phone Numbers (formatted)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="43" />
-        <entry key="ENGLISH" value="45" />
+        <entry key="CHINESE" value="267" />
+        <entry key="ENGLISH" value="269" />
         <entry key="CROATIAN" value="1" />
-        <entry key="ROMANIAN" value="3" />
+        <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
+        <entry key="ITALIAN" value="3" />
       </map>
     </option>
   </component>
