@@ -28,7 +28,7 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/MyDocuments" />
+    <option name="cloneParentDir" value="$USER_HOME$/MyDocuments/git/git_temp" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
