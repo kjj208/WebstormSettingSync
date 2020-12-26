@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping pattern="11" type="PLAIN_TEXT" />
       <mapping pattern="sparseArrayFile" type="PLAIN_TEXT" />
       <mapping ext="edf" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
