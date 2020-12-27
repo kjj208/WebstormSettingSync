@@ -4,7 +4,7 @@
     <property name="created">2020-02-02T15:55:06</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2019.3.2.0.0</property>
-    <property name="modified">2020-12-24T23:06:02</property>
+    <property name="modified">2020-12-27T12:00:45</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -28,6 +28,9 @@
       <value>
         <option name="FOREGROUND" value="3b8034" />
       </value>
+    </option>
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value />
     </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD_TEXT_CODE_TEXT">
       <value>
