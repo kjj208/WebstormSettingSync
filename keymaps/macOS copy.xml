@@ -64,7 +64,7 @@
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="meta g" />
+    <keyboard-shortcut first-keystroke="meta h" />
   </action>
   <action id="FindNext" />
   <action id="Generate">
