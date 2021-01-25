@@ -1,6 +1,13 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="true to acknowledge all messages up to and including the supplied delivery tag; false to acknowledge just the supplied delivery tag." />
+      <item value="the tag from the received" />
+      <item value="other properties for the message - routing headers etc" />
+      <item value="the exchange to publish the message to" />
+      <item value="Publishing to a non-existent exchange will result in a channel-level protocol exception, which closes the channel." />
+      <item value="Publish a message." />
+      <item value="Publish a message. Publishing to a non-existent exchange will result in a channel-level protocol exception, which closes the channel. Invocations of &lt;code&gt;ChannelbasicPublish&lt;code&gt; will eventually block if a &lt;a href=&quot;http:www.rabbitmq.comalarms.html&quot;&gt;resource-driven alarm&lt;a&gt; is in effect. @see com.rabbitmq.client.AMQP.Basic.Publish @see &lt;a href=&quot;http:www.rabbitmq.comalarms.html&quot;&gt;Resource-driven alarms&lt;a&gt; @param exchange the exchange to publish the message to @param routingKey the routing key @param props other properties for the message - routing headers etc @param body the message body @throws java.io.IOException if an error is encountered" />
       <item value="Invocation" />
       <item value="Isolation" />
       <item value="Propagation" />
@@ -44,18 +51,11 @@
       <item value="ensure Capacity Internal" />
       <item value="Increments modCount!" />
       <item value="Adfaith Consulting - Employee Information - Main Menu" />
-      <item value="Press Enter to continue..." />
-      <item value="No selection entered. Press Enter to continue…" />
-      <item value="Invalid code! Press Enter to continue…" />
-      <item value="Delete Records" />
-      <item value="Add New Records" />
-      <item value="Search for specific Record(s)" />
-      <item value="Print Names and Phone Numbers (formatted)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="267" />
-        <entry key="ENGLISH" value="269" />
+        <entry key="CHINESE" value="275" />
+        <entry key="ENGLISH" value="277" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
@@ -64,7 +64,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1608974217970" />
+    <option name="lastTrimTime" value="1611582636773" />
   </component>
   <component name="Settings">
     <option name="ignoreRegExp" value="" />
