@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Wait until all messages published since the last call have been either ack'd or nack'd by the broker. Note, when called on a non-Confirm channel, waitForConfirms throws an IllegalStateException. @return whether all the messages were ack'd (and none were nack'd) @throws java.lang.IllegalStateException" />
       <item value="true to acknowledge all messages up to and including the supplied delivery tag; false to acknowledge just the supplied delivery tag." />
       <item value="the tag from the received" />
       <item value="other properties for the message - routing headers etc" />
@@ -50,12 +51,11 @@
       <item value="calculate Capacity" />
       <item value="ensure Capacity Internal" />
       <item value="Increments modCount!" />
-      <item value="Adfaith Consulting - Employee Information - Main Menu" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="275" />
-        <entry key="ENGLISH" value="277" />
+        <entry key="CHINESE" value="276" />
+        <entry key="ENGLISH" value="278" />
         <entry key="CROATIAN" value="1" />
         <entry key="ROMANIAN" value="4" />
         <entry key="SPANISH" value="2" />
