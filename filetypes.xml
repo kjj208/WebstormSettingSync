@@ -5,9 +5,10 @@
       <mapping pattern="11" type="PLAIN_TEXT" />
       <mapping pattern="sparseArrayFile" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
-      <mapping ext="word" type="PLAIN_TEXT" />
       <mapping ext="edf" type="PLAIN_TEXT" />
+      <mapping ext="word" type="PLAIN_TEXT" />
       <removed_mapping ext="wxml" approved="true" type="WXML" />
+      <removed_mapping ext="wxss" approved="true" type="WXSS" />
       <removed_mapping ext="wxss" approved="true" type="CSS" />
       <removed_mapping ext="wxml" approved="true" type="WXML" />
       <mapping ext="gradle.kts" type="Kotlin" />
