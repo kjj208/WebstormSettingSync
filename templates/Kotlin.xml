@@ -1,59 +1,42 @@
 <templateSet group="Kotlin">
   <template name="main" value="fun main($ARGS$) {&#10;  $END$&#10;}" description="main() 函数" toReformat="true" toShortenFQNames="true">
     <variable name="ARGS" expression="kotlinMainArguments()" defaultValue="" alwaysStopAt="false" />
-    <context />
   </template>
-  <template name="maina" value="fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() 函数" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="maino" value="@JvmStatic&#10;fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() 函数" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="sout" value="println($END$)" description="打印一个字符串到System.out" toReformat="true" toShortenFQNames="false">
-    <context />
-  </template>
-  <template name="serr" value="System.err.println($END$)" description="打印一个字符串到System.err" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="maina" value="fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() 函数" toReformat="true" toShortenFQNames="true" />
+  <template name="maino" value="@JvmStatic&#10;fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() 函数" toReformat="true" toShortenFQNames="true" />
+  <template name="sout" value="println($END$)" description="打印一个字符串到System.out" toReformat="true" toShortenFQNames="false" />
+  <template name="serr" value="System.err.println($END$)" description="打印一个字符串到System.err" toReformat="true" toShortenFQNames="true" />
   <template name="soutv" value="println(&quot;$EXPR_COPY$ = $DOLLAR${$EXPR$}&quot;)" description="打印一个值System.out" toReformat="true" toShortenFQNames="true">
     <variable name="DOLLAR" expression="" defaultValue="&quot;$&quot;" alwaysStopAt="false" />
     <variable name="EXPR" expression="kotlinVariable()" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
     <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
-    <context />
   </template>
   <template name="soutp" value="println($FORMAT$)" description="将函数参数名称和值打印到 System.out" toReformat="true" toShortenFQNames="true">
     <variable name="FORMAT" expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [${' + it + '}]'}.join(', ') + '\&quot;'&quot;, functionParameters())" defaultValue="" alwaysStopAt="false" />
-    <context />
   </template>
   <template name="iter" value="for ($VAR$ in $ITERABLE$) {&#10;$END$&#10;}" description="迭代 iterable 的元素(for-in loop)" toReformat="true" toShortenFQNames="true">
     <variable name="ITERABLE" expression="kotlinVariable()" defaultValue="&quot;iterable&quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="kotlinSuggestVariableName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ifn" value="if ($VAR$ == null) {&#10;$END$&#10;}" description="插入 'if null' 表达式" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="kotlinVariable()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="inn" value="if ($VAR$ != null) {&#10;$END$&#10;}" description="插入 'if not null' 表达式" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="kotlinVariable()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="void" value="fun $NAME$($PARAMS$) {&#10;$END$&#10;}" description="函数不返回任何内容" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="fun0" value="fun $NAME$() : $RETURN$ {&#10;$END$&#10;}" description="无参数函数" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="fun1" value="fun $NAME$($PARAM1$ : $PARAM1TYPE$) : $RETURN$ {&#10;$END$&#10;}" description="单参数函数" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAM1" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
     <variable name="PARAM1TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="fun2" value="fun $NAME$($PARAM1$ : $PARAM1TYPE$, $PARAM2$ : $PARAM2TYPE$) : $RETURN$ {&#10;$END$&#10;}" description="双参数函数" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
@@ -62,52 +45,39 @@
     <variable name="PARAM2" expression="" defaultValue="&quot;y&quot;" alwaysStopAt="true" />
     <variable name="PARAM2TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="interface" value="interface $NAME$ {&#10;$END$&#10;}" description="接口" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="singleton" value="object $NAME$ {&#10;$END$&#10;}" description="单例" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="closure" value="{$PARAM$ -&gt; $PARAM_COPY$}" description="闭包(没有名称的函数)" toReformat="true" toShortenFQNames="true">
     <variable name="PARAM" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
     <variable name="PARAM_COPY" expression="PARAM" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="anonymous" value="object : $SUPERTYPE$ {&#10;$END$&#10;}" description="匿名类" toReformat="true" toShortenFQNames="true">
     <variable name="SUPERTYPE" expression="anonymousSuper()" defaultValue="&quot;Object&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="exfun" value="fun $RECEIVER$.$NAME$($PARAMS$) : $RETURN$ {&#10;$END$&#10;}" description="扩展函数" toReformat="true" toShortenFQNames="true">
     <variable name="RECEIVER" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;f&quot;" alwaysStopAt="true" />
     <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN" expression="" defaultValue="&quot;Unit&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="exval" value="val $RECEIVER$.$NAME$ : $TYPE$&#10;get() {&#10;$END$&#10;}" description="扩展只读属性" toReformat="true" toShortenFQNames="true">
     <variable name="RECEIVER" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;v&quot;" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="exvar" value="var $RECEIVER$.$NAME$ : $TYPE$&#10;get() {&#10;$END$&#10;}&#10;set(value) {&#10; &#10;}" description="扩展读写属性" toReformat="true" toShortenFQNames="true">
     <variable name="RECEIVER" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
     <variable name="NAME" expression="" defaultValue="&quot;v&quot;" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="&quot;Any&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="psvm" value="fun main($ARGS$) {&#10;  $END$&#10;}" description="main() 函数" toReformat="true" toShortenFQNames="true">
     <variable name="ARGS" expression="kotlinMainArguments()" defaultValue="" alwaysStopAt="false" />
-    <context />
   </template>
-  <template name="psvma" value="fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() 函数" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="psvmo" value="@JvmStatic&#10;fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() 函数" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="psvma" value="fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() 函数" toReformat="true" toShortenFQNames="true" />
+  <template name="psvmo" value="@JvmStatic&#10;fun main(args: Array&lt;String&gt;) {&#10;  $END$&#10;}" description="main() 函数" toReformat="true" toShortenFQNames="true" />
 </templateSet>
